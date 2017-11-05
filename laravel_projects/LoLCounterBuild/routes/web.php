@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/champion/statistics', function () {
+    return view('welcome');
+});
+
+Route::get('/champion/statistics/{champion_name}', 'StatisticsController@create');
+
+Route::get('/champion/{champion_name}/statistics/{role}/{enemy_champion_name}', 'StatisticsController@index')->name('statistics');
