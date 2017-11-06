@@ -15,6 +15,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/form', function () {
+    return view('form');
+});
+
+Route::post('/test', 'StatisticsController@create');
+
 Route::get('/champion/statistics', function () {
     return view('welcome');
 });

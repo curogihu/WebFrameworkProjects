@@ -26,9 +26,12 @@ class StatisticsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $request)
     {
-        echo("aaa");
+        if ($request->isMethod('post')) {
+            $form_contents = $request->only(['champion_name','role','enemy_champion_name']);
+            return view('result', compact('form_contents'));
+        }
     }
 
     /**
