@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\View;
 
 class StatisticsController extends Controller
 {
@@ -17,9 +18,7 @@ class StatisticsController extends Controller
         $role = $request->role;
         $enemy_champion_name = $request->enemy_champion_name;
 
-        return view('welcome')->with(['champion_name', $champion_name
-                                    ,'role', $role
-                                    ,'enemy_champion_name', $enemy_champion_name]);
+        return View::make('index', compact('champion_name', 'role', 'enemy_champion_name'));
     }
 
     /**
