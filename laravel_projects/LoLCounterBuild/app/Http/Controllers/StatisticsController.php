@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Validator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\View;
 
@@ -28,10 +29,22 @@ class StatisticsController extends Controller
      */
     public function create(Request $request)
     {
-        if ($request->isMethod('post')) {
-            $form_contents = $request->only(['champion_name','role','enemy_champion_name']);
-            return view('result', compact('form_contents'));
+        if (!$request->isMethod('post')) {
+            View::make('welcome');
         }
+
+        $validator = Validator::make($request->all(), [
+            'champion_name' => 'required',
+            'role' => 'required',
+            'enemy_champion_name' => 'required'
+        ]);
+
+        if ($validator->fails()) {
+            View::make('welcome');
+        }
+
+        $form_contents = $request->only(['champion_name','role','enemy_champion_name']);
+        return view('result', compact('form_contents'));
     }
 
     /**
