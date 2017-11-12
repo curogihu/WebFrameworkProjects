@@ -13,21 +13,24 @@
 
     <body>
         <div id="header">
-            
+
         </div>
 
         <div id="contents">
             <div class="content">
                 <div class="title m-b-md">
                     Laravel
-                </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <form method="POST" action="/search">
+                        {{ csrf_field() }}
+
+                        <input type="text" name="self">
+                        <input type="text" name="role">
+                        <input type="text" name="counter">
+
+                        <input type="submit" name="submit">
+                    </form>
+
                 </div>
 
                 <div class="parameters">
