@@ -13,7 +13,7 @@
 
     <body>
         <div id="header">
-
+            <h1>LoL Counter Build</h1>
         </div>
 
         <div id="contents">

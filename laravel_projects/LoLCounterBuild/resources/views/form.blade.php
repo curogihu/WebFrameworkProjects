@@ -93,7 +93,7 @@
                 <div class="form">
                     <form method="POST" action="/test">
                         {{ csrf_field() }}
-                        
+
                         <input type="text" name="champion_name">
                         <input type="text" name="role">
                         <input type="text" name="enemy_champion_name">
