@@ -18,18 +18,10 @@
 
         <div id="contents">
             <div class="content">
-                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
-                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
-                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
-                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
-                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
-                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
-                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
-                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
-                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
-                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
-                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
-                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
+                <li><a href="/teemo"><img src="https://placehold.jp/150x150.png" alt=""></a></li>
+                <li><a href="/garen"><img src="https://placehold.jp/150x150.png" alt=""></a></li>
+                <li><a href="/sion"><img src="https://placehold.jp/150x150.png" alt=""></a></li>
+                <li><a href="/masteryi"><img src="https://placehold.jp/150x150.png" alt=""></a></li>
             </div>
         </div>
 
