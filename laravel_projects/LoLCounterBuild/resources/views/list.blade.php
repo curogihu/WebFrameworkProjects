@@ -13,23 +13,23 @@
 
     <body>
         <div id="header">
-
+            <h1>LoL Counter Build</h1>
         </div>
 
         <div id="contents">
             <div class="content">
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
+                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
+                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
+                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
+                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
+                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
+                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
+                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
+                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
+                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
+                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
+                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
+                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
             </div>
         </div>
 

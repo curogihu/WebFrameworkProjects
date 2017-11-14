@@ -19,6 +19,10 @@ Route::get('/form', function () {
     return view('form');
 });
 
+Route::get('/list', function () {
+    return view('list');
+});
+
 Route::post('/test', 'StatisticsController@create');
 
 Route::get('/champion/statistics', function () {
