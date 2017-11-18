@@ -29,44 +29,6 @@
                 <li><img src="https://placehold.jp/150x150.png" alt=""></li>
             </div>
 
-            <div class="build">
-                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
-                <li><img src="https://placehold.jp/150x150.png" alt=""></li>
-
-                <div>
-                    <div id="win_item_build">
-                        <img src="" alt="">
-                        <p>item1</p>
-                        <p>1:00</p>
-                        <img src="" alt="">
-                        <p>item2</p>
-                        <p>2:00</p>
-                        <img src="" alt="">
-                        <p>item3</p>
-                        <p>3:00</p>
-                        <img src="" alt="">
-                        <p>item4</p>
-                        <p>4:00</p>
-                    </div>
-
-                    <div id="lose_item_build">
-                        <img src="" alt="">
-                        <p>item1</p>
-                        <p></p>
-                        <img src="" alt="">
-                        <p></p>
-                        <p></p>
-                        <img src="" alt="">
-                        <p></p>
-                        <p></p>
-                        <img src="" alt="">
-                        <p></p>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-
-
         </div>
 
         <div id="footer">

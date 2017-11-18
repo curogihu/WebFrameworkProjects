@@ -77,24 +77,44 @@
                 </div>
             @endif
 
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
+            <div class="contents">
+                <div class="build">
+                    <li><img src="https://placehold.jp/150x150.png" alt=""></li>
+                    <li><img src="https://placehold.jp/150x150.png" alt=""></li>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+                    <div>
+                        <div id="win_item_build">
+                            <img src="" alt="">
+                            <p>item1</p>
+                            <p>1:00</p>
+                            <img src="" alt="">
+                            <p>item2</p>
+                            <p>2:00</p>
+                            <img src="" alt="">
+                            <p>item3</p>
+                            <p>3:00</p>
+                            <img src="" alt="">
+                            <p>item4</p>
+                            <p>4:00</p>
+                        </div>
 
-                <div class="form">
-                    {{ $form_contents["champion_name"] }}
-                    {{ $form_contents["role"] }}
-                    {{ $form_contents["enemy_champion_name"] }}
+                        <div id="lose_item_build">
+                            <img src="" alt="">
+                            <p>item1</p>
+                            <p></p>
+                            <img src="" alt="">
+                            <p></p>
+                            <p></p>
+                            <img src="" alt="">
+                            <p></p>
+                            <p></p>
+                            <img src="" alt="">
+                            <p></p>
+                            <p></p>
+                        </div>
+                    </div>
                 </div>
+            </div>
             </div>
         </div>
     </body>
